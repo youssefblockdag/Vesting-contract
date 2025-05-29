@@ -1,0 +1,42 @@
+{
+  "name": "bdag-vesting",
+  "version": "1.0.0",
+  "description": "BDAG Token Vesting & Distribution System",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile --config hardhat-custom.config.js",
+    "clean": "hardhat clean",
+    "test": "hardhat test --config hardhat-custom.config.js",
+
+    "deploy": "hardhat run scripts/deploy.js --network primordial --config hardhat-custom.config.js",
+    "deploy-blockdag": "hardhat run scripts/deployblockdag.js --network primordial --config hardhat-custom.config.js",
+    "approve": "hardhat run scripts/approuvetoken.js --network primordial --config hardhat-custom.config.js",
+
+    "schedule-category": "hardhat run scripts/addcategory.js --network primordial --config hardhat-custom.config.js",
+    "exec-category": "hardhat run scripts/executeaddcategory.js --network primordial --config hardhat-custom.config.js",
+
+    "allocate": "hardhat run scripts/batchallocate.js --network primordial --config hardhat-custom.config.js",
+    "check-status": "hardhat run scripts/Checkstatus.js --network primordial --config hardhat-custom.config.js",
+
+    "release-early": "HARDHAT_NETWORK=primordial node scripts/releasetokens.js early-bird",
+    "release-team": "HARDHAT_NETWORK=primordial node scripts/releasetokens.js team",
+    "release-presale": "npx hardhat run scripts/releasetokens.js --param presale --network primordial --config hardhat-custom.config.js",
+
+
+    "check-vesting": "echo 'Run: node scripts/check-vesting.js <wallet> <category>'"
+  },
+  "keywords": [],
+  "author": "Youssef",
+  "license": "MIT",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/hardhat-upgrades": "^1.28.0",
+    "dotenv": "^16.0.3",
+    "csv-parse": "^5.3.6",
+    "ethers": "^6.13.0",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "hardhat": "^2.21.0"
+  }
+}

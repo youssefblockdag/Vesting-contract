@@ -1,0 +1,56 @@
+{
+  "Early Bird": {
+    "operationId": "0x5a9e01c924965ce620e4009763363878b78ae4a6231bd83f7b92bbb5ac5845ae",
+    "scheduledAt": "2025-03-31T13:07:53.920Z",
+    "category": "0x2608ef2c6d76ec500d889693eac4d248785aec4930db833ddcd943fe5ed44244",
+    "params": {
+      "category": "0x2608ef2c6d76ec500d889693eac4d248785aec4930db833ddcd943fe5ed44244",
+      "start": 1743426470,
+      "totalAmount": "10000000000000000000000000",
+      "releaseSteps": [
+        "10000"
+      ],
+      "timeSteps": [
+        "0"
+      ]
+    }
+  },
+  "Team": {
+    "operationId": "0x301af094701a0a245e9bb15f5bf0406c1dacf6fa9d38c00123b6cebdaa7c8783",
+    "scheduledAt": "2025-03-31T13:08:00.457Z",
+    "category": "0x9b82d2f38fbdf13006bfa741767f793d917e063392737837b580c1c2b1e0bab3",
+    "params": {
+      "category": "0x9b82d2f38fbdf13006bfa741767f793d917e063392737837b580c1c2b1e0bab3",
+      "start": 1743426470,
+      "totalAmount": "15000000000000000000000000",
+      "releaseSteps": [
+        "10000"
+      ],
+      "timeSteps": [
+        "63072000"
+      ]
+    }
+  },
+  "Presale": {
+    "operationId": "0x82473b37ec49e9aa2a8c951411037aee72cb3f56713d7845103713d0c2a33ae2",
+    "scheduledAt": "2025-03-31T13:07:56.270Z",
+    "category": "0x98eba5a7b13808f833eca52bd365421b449cde4b74525a6913b19b0a84be9002",
+    "params": {
+      "category": "0x98eba5a7b13808f833eca52bd365421b449cde4b74525a6913b19b0a84be9002",
+      "start": 1743426470,
+      "totalAmount": "20000000000000000000000000",
+      "releaseSteps": [
+        "4000",
+        "2000",
+        "2000",
+        "2000"
+      ],
+      "timeSteps": [
+        "0",
+        "2592000",
+        "5184000",
+        "7776000"
+      ]
+    }
+  }
+}

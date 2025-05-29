@@ -1,0 +1,8 @@
+{
+  "network": "primordial",
+  "chainId": 1043,
+  "treasuryVestingAddress": "0x096C565423cB60892E324F376130908640BE1090",
+  "bdagTokenAddress": "0x6c27e95A9637a3769A833F46E3b5239ee7178077",
+  "deployer": "0x6c27e95A9637a3769A833F46E3b5239ee7178077",
+  "deploymentTime": "2025-03-30T11:21:31.648Z"
+}
